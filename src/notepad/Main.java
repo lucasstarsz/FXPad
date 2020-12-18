@@ -1,9 +1,11 @@
 package notepad;
 
 import javafx.application.Application;
+import javafx.application.Platform;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import notepad.controller.Controller;
 
 public class Main extends Application {
 
@@ -18,13 +20,28 @@ public class Main extends Application {
     @Override
     public void start(Stage stage) throws Exception {
         mainStage = stage;
-        Scene scene = new Scene(FXMLLoader.load(getClass().getResource("sample.fxml")), 800, 600);
-        scene.getStylesheets().add(getClass().getResource("/styles/style.css").toExternalForm());
 
-        System.gc();
+        FXMLLoader fxml = new FXMLLoader(getClass().getResource("sample.fxml"));
+        Scene scene = new Scene(fxml.load(), 800, 600);
+        String stylesheet = getClass().getResource("/styles/style.css").toExternalForm();
+        scene.getStylesheets().add(stylesheet);
 
         mainStage.setScene(scene);
         mainStage.setTitle("Untitled.txt | " + title);
+
+        Platform.setImplicitExit(false);
+        mainStage.setOnCloseRequest(event -> {
+            Controller c = fxml.getController();
+
+            if (!c.isUnsaved() || c.confirmUnsavedChanges("close FXPad")) {
+                Platform.exit();
+            } else {
+                event.consume();
+            }
+        });
+
+        System.gc();
+
         mainStage.show();
     }
 

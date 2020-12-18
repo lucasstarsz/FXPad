@@ -1,18 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.ScrollPane?>
-<?import javafx.scene.control.MenuBar?>
-<?import javafx.scene.control.Menu?>
-<?import javafx.scene.control.MenuItem?>
-<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.*?>
 <?import javafx.scene.layout.VBox?>
-<ScrollPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="notepad.Controller">
+<ScrollPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+            fx:controller="notepad.controller.Controller">
     <VBox>
         <MenuBar VBox.vgrow="ALWAYS">
             <Menu text="File">
                 <MenuItem fx:id="openMenuItem" text="_Open..." onAction="#openFile"/>
                 <MenuItem fx:id="saveMenuItem" text="_Save" onAction="#saveFile"/>
                 <MenuItem fx:id="saveAsMenuItem" text="Save as..." onAction="#saveFileAs"/>
+            </Menu>
+            <Menu text="Edit">
+                <MenuItem fx:id="undoMenuItem" text="_Undo" onAction="#undo"/>
+                <MenuItem fx:id="redoMenuItem" text="_Redo" onAction="#redo"/>
+                <MenuItem fx:id="copyMenuItem" text="_Copy" onAction="#copy"/>
+                <MenuItem fx:id="cutMenuItem" text="_Cut" onAction="#cut"/>
+                <MenuItem fx:id="pasteMenuItem" text="_Paste" onAction="#paste"/>
+                <MenuItem fx:id="selectAllMenuItem" text="Select _All" onAction="#selectAll"/>
+                <Menu text="Indents">
+                    <MenuItem fx:id="indentRightMenuItem" text="_Shift -&gt;" onAction="#shiftRight"/>
+                    <MenuItem fx:id="indentLeftMenuItem" text="_Shift &lt;-" onAction="#shiftLeft"/>
+                </Menu>
             </Menu>
         </MenuBar>
         <TextArea VBox.vgrow="ALWAYS" fx:id="textArea" maxWidth="Infinity" maxHeight="Infinity" wrapText="true"/>
