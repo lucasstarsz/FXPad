@@ -2,7 +2,7 @@
   <artifact type="jar" name="Notepad:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/Notepad_jar</output-path>
     <root id="archive" name="Notepad.jar">
-      <element id="module-output" name="Notepad" />
+      <element id="module-output" name="FXPad" />
     </root>
   </artifact>
 </component>
