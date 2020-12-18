@@ -1,5 +1,9 @@
 # FXPad
 
-A clean and simple text editor.
+A clean, simple text editor.
 
-FXPad started out as a very simple 
+FXPad offers responsive tabs, a refreshing color palate, and a simple interface to work with.
+
+
+
+**Installers/Standalone versions coming soon.**
