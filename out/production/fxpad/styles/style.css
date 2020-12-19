@@ -4,12 +4,12 @@ ScrollPane {
 }
 
 .menu-bar {
-    /*-fx-background-color: #f5f5f5;*/
+    -fx-background-color: #f5f5f5;
 }
 
 .text-area {
-    /*-fx-font: 14px "Consolas";*/
-    /*-fx-control-inner-background: #f5f5f5;*/
+    -fx-font: 14px "Consolas";
+    -fx-control-inner-background: #f5f5f5;
 }
 
 .text-area:focused {

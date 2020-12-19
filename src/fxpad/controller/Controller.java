@@ -23,7 +23,7 @@ import java.util.concurrent.atomic.AtomicReference;
 
 public class Controller {
 
-    private static final FileChooser.ExtensionFilter textFileFilter = new FileChooser.ExtensionFilter("Text File (.txt)", "*.txt");
+    private static final FileChooser.ExtensionFilter textFileFilter = new FileChooser.ExtensionFilter("Text File", "*.txt");
     private static final FileChooser.ExtensionFilter allFilesFiler = new FileChooser.ExtensionFilter("All Files", "*.*");
 
     // File Menu
@@ -52,8 +52,8 @@ public class Controller {
     @FXML
     private void initialize() {
         Map<MenuItem, KeyCombination> editMenuMnemonics = Map.of(
-                indentLeftMenuItem, new KeyCodeCombination(KeyCode.valueOf("TAB"), KeyCombination.SHIFT_DOWN),
-                indentRightMenuItem, new KeyCodeCombination(KeyCode.valueOf("TAB"), KeyCombination.SHORTCUT_DOWN),
+                indentLeftMenuItem, new KeyCodeCombination(KeyCode.TAB, KeyCombination.SHIFT_DOWN),
+                indentRightMenuItem, new KeyCodeCombination(KeyCode.TAB, KeyCombination.SHORTCUT_DOWN),
                 undoMenuItem, new KeyCodeCombination(KeyCode.Z, KeyCodeCombination.SHORTCUT_DOWN),
                 redoMenuItem, new KeyCodeCombination(KeyCode.Y, KeyCodeCombination.SHORTCUT_DOWN),
                 copyMenuItem, new KeyCodeCombination(KeyCode.C, KeyCodeCombination.SHORTCUT_DOWN),

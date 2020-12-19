@@ -20,8 +20,8 @@
                 <MenuItem fx:id="pasteMenuItem" text="Paste" onAction="#paste"/>
                 <MenuItem fx:id="selectAllMenuItem" text="Select All" onAction="#selectAll"/>
                 <Menu text="Indents">
-                    <MenuItem fx:id="indentRightMenuItem" text="Shift -&gt;" onAction="#shiftRight"/>
-                    <MenuItem fx:id="indentLeftMenuItem" text="Shift &lt;-" onAction="#shiftLeft"/>
+                    <MenuItem fx:id="indentRightMenuItem" text="Shift →" onAction="#shiftRight"/>
+                    <MenuItem fx:id="indentLeftMenuItem" text="Shift ←" onAction="#shiftLeft"/>
                 </Menu>
             </Menu>
         </MenuBar>
