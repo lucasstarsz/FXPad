@@ -18,9 +18,6 @@ width="25%" height="25%" alt="FXPad image"/>
         </a>
     </span>
 </div>
-
-<p align="center">Offering smart tabs, a refreshing color palate, and a simple UI, FXPad will satisfy your everyday note-taking needs.</p>
-
 <h2 align="center">How To Run</h2>
 
 #### Executable
@@ -50,7 +47,7 @@ width="25%" height="25%" alt="FXPad image"/>
 4. Select `Application` → `Main`
 
 5. Set the VM Options to `--module-path "path/to/javafx-sdk-15/lib":out/production`
-    
+   
     - Don't see the option? You may need to click on `Modify options` in the top right of the window, and add a checkmark next to `Add VM options`.
     
 6. Hit `Apply`, then `Run`. If everything goes as expected, you should see the project build and run!
