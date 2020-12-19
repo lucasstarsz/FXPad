@@ -40,5 +40,4 @@ FXPad offers smart tabs, a refreshing color palate, and a simple interface to wo
 6. Apply, then Run.
 
 
-
-#### [Feature Requests Welcome]()
+#### [Feature Requests Welcome](https://github.com/lucasstarsz/FXPad/issues)
