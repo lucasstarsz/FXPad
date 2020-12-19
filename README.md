@@ -8,7 +8,7 @@ FXPad offers smart tabs, a refreshing color palate, and a simple interface to wo
 
 #### Executables
 
-- Installer options for Linux & Windows are found [here.](https://github.com/lucasstarsz/FXPad/tree/main/executable)
+- Installer options for Linux & Windows are found [here.](https://github.com/lucasstarsz/FXPad/releases)
 - Mac users will need to build the application for themselves as of now, or otherwise run the app through the project (mentioned below).
 
 #### Project
