@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/FXPad.iml" filepath="$PROJECT_DIR$/FXPad.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fxpad.iml" filepath="$PROJECT_DIR$/fxpad.iml" />
     </modules>
   </component>
 </project>

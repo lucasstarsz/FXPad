@@ -1,10 +1,9 @@
-module FXPad {
+module fxpad {
     requires javafx.fxml;
     requires javafx.controls;
     requires java.desktop;
 
-    opens notepad.controller to javafx.fxml;
+    opens fxpad.controller to javafx.fxml;
 
-    exports notepad.controller;
-    exports notepad;
+    exports fxpad;
 }
