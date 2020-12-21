@@ -1,0 +1,28 @@
+@import url(https://fonts.googleapis.com/css?family=Inconsolata);
+
+.menu-bar {
+    /*-fx-background-color: #f5f5f5;*/
+    -fx-font: 14px "Segoe UI";
+    /*-fx-background-color: white;*/
+    -fx-background-color: linear-gradient(to bottom, #00B2D7, #00B2D7, #0095BE, #fefefe);
+    -fx-padding: 0;
+    -fx-start-margin: 0;
+    -fx-end-margin: 0;
+}
+
+/*StyleClassedTextArea {*/
+/*}*/
+
+StyleClassedTextArea, .padded-lineno {
+    -fx-font-size: 13px;
+    -fx-font-family: "Inconsolata";
+}
+
+.padded-lineno {
+    -fx-border-style: hidden solid solid hidden;
+    -fx-border-width: 2 2 5 2;
+    -fx-border-color: #666666 #666666 #444444 #666666;
+
+    -fx-background-color: #444444;
+    /*-fx-padding: 5px 15px 5px 5px;*/
+}

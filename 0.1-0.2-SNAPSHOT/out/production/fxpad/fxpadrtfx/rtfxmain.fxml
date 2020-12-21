@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.*?>
+<?import javafx.scene.layout.StackPane?>
 <?import javafx.scene.layout.VBox?>
-<ScrollPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
-            fx:controller="fxpad.controller.Controller">
+<?import org.fxmisc.flowless.VirtualizedScrollPane?>
+<?import org.fxmisc.richtext.StyleClassedTextArea?>
+<StackPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="fxpadrtfx.RTFXController">
     <VBox>
         <MenuBar VBox.vgrow="ALWAYS">
             <Menu text="File">
@@ -25,6 +27,10 @@
                 </Menu>
             </Menu>
         </MenuBar>
-        <TextArea VBox.vgrow="ALWAYS" fx:id="textArea" maxWidth="Infinity" maxHeight="Infinity" wrapText="true"/>
+        <VirtualizedScrollPane VBox.vgrow="ALWAYS">
+            <content>
+                <StyleClassedTextArea fx:id="textArea" wrapText="true"/>
+            </content>
+        </VirtualizedScrollPane>
     </VBox>
-</ScrollPane>
+</StackPane>
