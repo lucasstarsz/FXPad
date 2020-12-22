@@ -4,81 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2ead24f-041c-4f59-99ad-9a4a50ac9260" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gradle/6.5.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.5.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.5.1/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.5.1/fileContent/fileContent.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.5.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.5.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.5.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.5.1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.5.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.5.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.5.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/configuration-cache/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/cssdialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lucasstarsz/fxpad/RTFXController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lucasstarsz/fxpad/nodes/FormatArea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lucasstarsz/fxpad/utils/DialogUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lucasstarsz/fxpad/utils/FileUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/lucasstarsz/fxpad/utils/TextUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/icons/fxpad_icns.icns" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/styles/Inconsolata-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/styles/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/fxpad_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/JavaFX.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/create_fxpad_linux.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/create_fxpad_windows.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/executable/FXPad-0.1.1.msi" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/executable/fxpad_0.1-1_amd64.deb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fxpad.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/metadata/extensions/extension_text.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/extensions/extension_text.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/metadata/extensions/extension_txt.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/extensions/extension_txt.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/metadata/icons/fxpad_icon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/icons/fxpad_ico.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/metadata/icons/fxpad_png.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/icons/fxpad_png.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/fxpad_jar/fxpad.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/fxpad/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/fxpad/fxpad/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/fxpad/fxpad/controller/Controller$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/fxpad/fxpad/controller/Controller.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/fxpad/fxpad/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/lucasstarsz/fxpad/rtfxmain.fxml" afterDir="false" />
+    <list default="true" id="e2ead24f-041c-4f59-99ad-9a4a50ac9260" name="Default Changelist" comment="Updated to current version: 0.2.0-SNAPSHOT.3&#10;&#10;Changes made:&#10;- created dark theme&#10;- added error dialogs&#10;- separated static logic of controller into separate classes (FileUtil, DialogUtil, TextUtil)&#10;- including build files from 0.2.0-SNAPSHOT.3">
       <change beforePath="$PROJECT_DIR$/out/production/fxpad/icons/fxpad_png.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/fxpad/module-info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/fxpad/styles/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/icons/fxpad_png.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/styles/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fxpad/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lucasstarsz/fxpad/RTFXMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fxpad/controller/Controller.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fxpad/sample.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module-info.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -251,8 +178,16 @@
       <option name="presentableId" value="Default" />
       <updated>1608585964193</updated>
       <workItem from="1608585967856" duration="27598000" />
-      <workItem from="1608644063551" duration="10835000" />
+      <workItem from="1608644063551" duration="11135000" />
     </task>
+    <task id="LOCAL-00001" summary="Updated to current version: 0.2.0-SNAPSHOT.3&#10;&#10;Changes made:&#10;- created dark theme&#10;- added error dialogs&#10;- separated static logic of controller into separate classes (FileUtil, DialogUtil, TextUtil)&#10;- including build files from 0.2.0-SNAPSHOT.3">
+      <created>1608655446728</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608655446728</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,5 +204,9 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Updated to current version: 0.2.0-SNAPSHOT.3&#10;&#10;Changes made:&#10;- created dark theme&#10;- added error dialogs&#10;- separated static logic of controller into separate classes (FileUtil, DialogUtil, TextUtil)&#10;- including build files from 0.2.0-SNAPSHOT.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated to current version: 0.2.0-SNAPSHOT.3&#10;&#10;Changes made:&#10;- created dark theme&#10;- added error dialogs&#10;- separated static logic of controller into separate classes (FileUtil, DialogUtil, TextUtil)&#10;- including build files from 0.2.0-SNAPSHOT.3" />
   </component>
 </project>
