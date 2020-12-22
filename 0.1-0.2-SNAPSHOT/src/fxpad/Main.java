@@ -1,4 +1,4 @@
-package fxpad;
+package org.lucasstarsz.fxpad;
 
 import javafx.application.Application;
 import javafx.application.Platform;
@@ -6,11 +6,16 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Scene;
 import javafx.scene.image.Image;
 import javafx.stage.Stage;
-import fxpad.controller.Controller;
+import org.lucasstarsz.fxpad.utils.DialogUtil;
 
-public class Main extends Application {
+import java.io.IOException;
 
-    public static final String title = "FXPad";
+public class RTFXMain extends Application {
+
+    public static final String title = "FXPad SNAPSHOT.3";
+    public static final String mainFXMLPath = "rtfxmain.fxml";
+    public static final String mainCSSPath = "/styles/style.css";
+    public static final String iconPath = "/icons/fxpad_png.png";
 
     private static Stage mainStage;
 
@@ -21,23 +26,24 @@ public class Main extends Application {
     }
 
     @Override
-    public void start(Stage stage) throws Exception {
+    public void start(Stage stage) throws IOException {
         mainStage = stage;
 
-        FXMLLoader fxml = new FXMLLoader(getClass().getResource("sample.fxml"));
+        FXMLLoader fxml = new FXMLLoader(getClass().getResource(mainFXMLPath));
         Scene scene = new Scene(fxml.load(), 800, 600);
-        String stylesheet = getClass().getResource("/styles/style.css").toExternalForm();
+        String stylesheet = getClass().getResource(mainCSSPath).toExternalForm();
         scene.getStylesheets().add(stylesheet);
 
         mainStage.setScene(scene);
         mainStage.setTitle("Untitled.txt | " + title);
-        mainStage.getIcons().add(new Image(getClass().getResourceAsStream("/icons/fxpad_png.png")));
+        mainStage.getIcons().add(new Image(getClass().getResourceAsStream(iconPath)));
+        mainStage.setMinWidth(400);
+        mainStage.setMinHeight(150);
 
         Platform.setImplicitExit(false);
         mainStage.setOnCloseRequest(event -> {
-            Controller c = fxml.getController();
-
-            if (!c.isUnsaved() || c.confirmUnsavedChanges("close FXPad")) {
+            RTFXController c = fxml.getController();
+            if (!c.isUnsaved() || DialogUtil.confirmUnsavedChanges(c.getCurrentFileTitle(), "close FXPad")) {
                 Platform.exit();
             } else {
                 event.consume();
@@ -47,7 +53,7 @@ public class Main extends Application {
         System.gc();
         mainStage.show();
 
-        if (fileToOpen != null) ((Controller) fxml.getController()).tryOpen(fileToOpen);
+        if (fileToOpen != null) ((RTFXController) fxml.getController()).tryOpen(fileToOpen);
     }
 
     public static void main(String[] args) {
