@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="https://raw.githubusercontent.com/lucasstarsz/FXPad/main/metadata/icons/fxpad_png.png" 
+    <img src="https://raw.githubusercontent.com/lucasstarsz/FXPad/main/.github/fxpad_png.png" 
 width="25%" height="25%" alt="FXPad image"/>
     <h1>FXPad</h1>
     <span>A clean, simple text editor.<br/></span>
