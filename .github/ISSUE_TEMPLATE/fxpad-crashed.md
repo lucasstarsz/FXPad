@@ -6,19 +6,11 @@ labels: crash
 assignees: lucasstarsz
 
 ---
+## The Error Log
 
-# FXPad Crashed, pls fix
-
-## What was your error message?
-
-(replace this text with the error message.)
-
-
-## What was your error?
-
-(replace this text with the stack trace.)
-
-(In other words, copy and paste in the big chunk of text that you get from pressing the "Show Details" option, below the error message.
+(Press Ctrl + V here.)
 
 
 ## What were you doing when you got this error? Please describe.
+
+(Describe what you weere doing when you got the error. Pictures and other info welcome.)
