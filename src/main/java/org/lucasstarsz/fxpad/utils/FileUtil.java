@@ -15,6 +15,7 @@ public class FileUtil {
 
     private static final FileChooser.ExtensionFilter textFileFilter = new FileChooser.ExtensionFilter("Text File", "*.txt");
     private static final FileChooser.ExtensionFilter allFilesFiler = new FileChooser.ExtensionFilter("All Files", "*.*");
+    private static final String os = System.getProperty("os.name").startsWith("win") ? "Windows" : System.getProperty("os.name").startsWith("lin") ? "Linux" : "Mac";
 
     /**
      * Tries to open a new file, and returns the result.
@@ -50,18 +51,19 @@ public class FileUtil {
      * @throws IOException This is thrown by {@code Files.readString(...), Files.readAllBytes(...)} if there is an error reading the
      *                     contents of the file.
      */
+    @SuppressWarnings("ReadWriteStringCanBeUsed")
     public static String open(File file) throws IOException {
         try {
             return Files.readString(file.toPath());
         } catch (MalformedInputException e) {
-            if (DialogUtil.confirmOpenUnsupported(file)) {
-                //noinspection ReadWriteStringCanBeUsed
+            if (os.equals("linux")) {
+                DialogUtil.cantOpenFile(file.getAbsolutePath());
+            } else if (DialogUtil.confirmOpenUnsupported(file)) {
                 return new String(Files.readAllBytes(file.toPath()), StandardCharsets.UTF_8);
             }
         } catch (Exception e) {
             DialogUtil.massiveFailure(e);
         }
-
         return null;
     }
 

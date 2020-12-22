@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2ead24f-041c-4f59-99ad-9a4a50ac9260" name="Default Changelist" comment="set README image link" />
+    <list default="true" id="e2ead24f-041c-4f59-99ad-9a4a50ac9260" name="Default Changelist" comment="set README image link">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_22_2020_11_44_AM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_22_2020_11_44_AM__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/lucasstarsz/fxpad/utils/FileUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lucasstarsz/fxpad/utils/FileUtil.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,7 +59,7 @@
       <recent name="F:\Github-repos\formatfx\src\main\resources\org\lucasstarsz\fxpad" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Package">
+  <component name="RunManager" selected="Gradle.Run ">
     <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -176,7 +180,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608585964193</updated>
       <workItem from="1608585967856" duration="27598000" />
-      <workItem from="1608644063551" duration="12312000" />
+      <workItem from="1608644063551" duration="13731000" />
     </task>
     <task id="LOCAL-00001" summary="Updated to current version: 0.2.0-SNAPSHOT.3&#10;&#10;Changes made:&#10;- created dark theme&#10;- added error dialogs&#10;- separated static logic of controller into separate classes (FileUtil, DialogUtil, TextUtil)&#10;- including build files from 0.2.0-SNAPSHOT.3">
       <created>1608655446728</created>
