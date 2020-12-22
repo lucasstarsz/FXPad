@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.VBox?>
+<?import org.fxmisc.flowless.VirtualizedScrollPane?>
+<?import org.lucasstarsz.fxpad.nodes.FormatArea?>
+<VBox fx:id="container" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="org.lucasstarsz.fxpad.RTFXController">
+    <MenuBar VBox.vgrow="ALWAYS">
+        <Menu text="File">
+            <MenuItem fx:id="newFileMenuItem" text="_New" onAction="#makeNewFile"/>
+            <MenuItem fx:id="openMenuItem" text="_Open..." onAction="#openFile"/>
+            <MenuItem fx:id="saveMenuItem" text="_Save" onAction="#saveFile"/>
+            <MenuItem fx:id="saveAsMenuItem" text="Save as..." onAction="#saveFileAs"/>
+        </Menu>
+        <Menu text="Edit">
+            <MenuItem fx:id="undoMenuItem" text="Undo" onAction="#undo"/>
+            <MenuItem fx:id="redoMenuItem" text="Redo" onAction="#redo"/>
+            <MenuItem fx:id="copyMenuItem" text="Copy" onAction="#copy"/>
+            <MenuItem fx:id="cutMenuItem" text="Cut" onAction="#cut"/>
+            <MenuItem fx:id="pasteMenuItem" text="Paste" onAction="#paste"/>
+            <MenuItem fx:id="selectAllMenuItem" text="Select All" onAction="#selectAll"/>
+            <Menu text="Indents">
+                <MenuItem fx:id="indentRightMenuItem" text="Shift →" onAction="#shiftRight"/>
+                <MenuItem fx:id="indentLeftMenuItem" text="Shift ←" onAction="#shiftLeft"/>
+            </Menu>
+            <MenuItem fx:id="findMenuItem" text="Find" onAction="#find"/>
+        </Menu>
+    </MenuBar>
+    <VirtualizedScrollPane VBox.vgrow="ALWAYS">
+        <!--suppress JavaFxDefaultTag -->
+        <!-- VirutalizedScrollPane requires content to be specified. -->
+        <content>
+            <FormatArea fx:id="textArea" wrapText="false"/>
+        </content>
+    </VirtualizedScrollPane>
+</VBox>

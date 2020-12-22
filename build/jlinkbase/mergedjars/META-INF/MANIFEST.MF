@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+            Created-By: Badass-JLink Plugin
+            Built-By: gradle

@@ -1,0 +1,15 @@
+org/lucasstarsz/fxpad/utils/DialogUtil.java
+ org.lucasstarsz.fxpad.utils.DialogUtil
+org/lucasstarsz/fxpad/nodes/FormatArea.java
+ org.lucasstarsz.fxpad.nodes.FormatArea
+org/lucasstarsz/fxpad/RTFXMain.java
+ org.lucasstarsz.fxpad.RTFXMain
+org/lucasstarsz/fxpad/utils/FileUtil.java
+ org.lucasstarsz.fxpad.utils.FileUtil
+module-info.java
+ module-info
+org/lucasstarsz/fxpad/RTFXController.java
+ org.lucasstarsz.fxpad.RTFXController
+ org.lucasstarsz.fxpad.RTFXController$1
+org/lucasstarsz/fxpad/utils/TextUtil.java
+ org.lucasstarsz.fxpad.utils.TextUtil
