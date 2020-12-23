@@ -2,7 +2,7 @@
 name: Feature Request
 about: Came up with something for FXPad? Let us know.
 title: "[FEATURE REQUEST]"
-labels: ''
+labels: enhancement
 assignees: ''
 
 ---
