@@ -15,7 +15,7 @@ public class FileUtil {
 
     private static final FileChooser.ExtensionFilter textFileFilter = new FileChooser.ExtensionFilter("Text File", "*.txt");
     private static final FileChooser.ExtensionFilter allFilesFiler = new FileChooser.ExtensionFilter("All Files", "*.*");
-    private static final String os = System.getProperty("os.name").startsWith("win") ? "Windows" : System.getProperty("os.name").startsWith("lin") ? "Linux" : "Mac";
+    private static final String os = System.getProperty("os.name").startsWith("Win") ? "Windows" : System.getProperty("os.name").startsWith("Linux") ? "Linux" : "Mac";
 
     /**
      * Tries to open a new file, and returns the result.

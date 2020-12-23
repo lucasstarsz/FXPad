@@ -1,21 +1,16 @@
 @font-face {
-    src: url('Inconsolata-Regular.ttf');
+    src: url('/fonts/Inconsolata-Regular.ttf');
 }
 
 .root {
     -fx-base: #3c3f41;
     -fx-accent: #0094bd;
-    -fx-default-button: #4c5052;
+
     -fx-focus-color: #0093bc;
     -fx-faint-focus-color: #36587f;
-    /*-fx-focused-text-base-color: ladder(*/
-    /*        -fx-selection-bar,*/
-    /*        -fx-light-text-color 45%,*/
-    /*        -fx-dark-text-color 46%,*/
-    /*        -fx-dark-text-color 59%,*/
-    /*        -fx-mid-text-color 60%*/
-    /*);*/
-    /*-fx-focused-mark-color: -fx-focused-text-base-color;*/
+
+    -fx-default-button: #4c5052;
+
     -fx-font: 14px "Segoe UI";
 }
 
@@ -76,12 +71,9 @@ ParagraphText {
 }
 
 .lineno {
-    /*-fx-fill: #313335;*/
-    /*-fx-background-color: #313335;*/
     -fx-fill: #3c3f41;
     -fx-background-color: #3c3f41;
     -fx-text-fill: #606366;
-    /*-fx-font: 12px "Consolas";*/
     -fx-font-style: normal;
 
     -fx-padding: 0 15 0 5;

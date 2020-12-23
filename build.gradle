@@ -55,6 +55,7 @@ jlink {
             installerType = "msi"
             installerOptions += [
                     '--win-per-user-install',
+                    '--install-dir', 'FXPad Test',
                     '--win-dir-chooser',
                     '--win-shortcut',
                     '--win-menu', '--win-menu-group', 'Productivity'
@@ -62,7 +63,7 @@ jlink {
         } else if (currentOs.linux) {
             installerType = "deb"
             installerOptions += [
-                    '--linux-menu-group', 'Productivity',
+                    '--linux-menu-group', 'Office',
                     '--linux-shortcut',
                     '--linux-deb-maintainer', 'andrewrcdey@gmail.com'
             ]

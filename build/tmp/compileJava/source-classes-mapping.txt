@@ -6,6 +6,8 @@ org/lucasstarsz/fxpad/RTFXMain.java
  org.lucasstarsz.fxpad.RTFXMain
 org/lucasstarsz/fxpad/utils/FileUtil.java
  org.lucasstarsz.fxpad.utils.FileUtil
+org/lucasstarsz/fxpad/SettingsController.java
+ org.lucasstarsz.fxpad.SettingsController
 module-info.java
  module-info
 org/lucasstarsz/fxpad/RTFXController.java

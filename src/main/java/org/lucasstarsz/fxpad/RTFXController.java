@@ -1,6 +1,9 @@
 package org.lucasstarsz.fxpad;
 
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Node;
+import javafx.scene.control.Dialog;
 import javafx.scene.control.MenuItem;
 import javafx.scene.input.*;
 import javafx.scene.layout.VBox;
@@ -23,6 +26,7 @@ public class RTFXController {
     @FXML private MenuItem openMenuItem;
     @FXML private MenuItem saveMenuItem;
     @FXML private MenuItem saveAsMenuItem;
+    @FXML private MenuItem settingsMenuItem;
 
     // Edit Menu
     @FXML private MenuItem undoMenuItem;
@@ -90,6 +94,16 @@ public class RTFXController {
             event.setDropCompleted(success);
             event.consume();
         });
+    }
+
+    @FXML
+    private void openSettings() throws IOException {
+        Dialog<Node> settingsDialog = DialogUtil.createEmptyDialog();
+
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("settingsDialog.fxml"));
+        settingsDialog.getDialogPane().setContent(fxmlLoader.load());
+
+        settingsDialog.show();
     }
 
     public void tryOpen(String fileLocation) throws IOException {

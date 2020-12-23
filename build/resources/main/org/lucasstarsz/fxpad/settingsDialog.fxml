@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.collections.FXCollections?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.layout.VBox?>
+<?import java.lang.String?>
+<VBox xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="org.lucasstarsz.fxpad.SettingsController" spacing="25">
+    <padding>
+        <Insets topRightBottomLeft="20"/>
+    </padding>
+    <ComboBox promptText="Set Theme" editable="true">
+        <items>
+            <FXCollections fx:factory="observableArrayList">
+                <String fx:value="Darcpad"/>
+            </FXCollections>
+        </items>
+    </ComboBox>
+</VBox>

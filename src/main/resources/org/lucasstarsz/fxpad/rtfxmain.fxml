@@ -12,6 +12,7 @@
             <MenuItem fx:id="openMenuItem" text="_Open..." onAction="#openFile"/>
             <MenuItem fx:id="saveMenuItem" text="_Save" onAction="#saveFile"/>
             <MenuItem fx:id="saveAsMenuItem" text="Save as..." onAction="#saveFileAs"/>
+            <MenuItem fx:id="settingsMenuItem" text="Settings" onAction="#openSettings"/>
         </Menu>
         <Menu text="Edit">
             <MenuItem fx:id="undoMenuItem" text="Undo" onAction="#undo"/>

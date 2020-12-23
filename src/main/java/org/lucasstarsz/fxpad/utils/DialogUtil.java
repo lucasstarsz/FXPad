@@ -4,13 +4,13 @@ import javafx.geometry.Pos;
 import javafx.scene.Node;
 import javafx.scene.control.Button;
 import javafx.scene.control.Dialog;
+import javafx.scene.control.ScrollPane;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.*;
-import javafx.scene.control.skin.VirtualFlow;
 import javafx.scene.layout.Priority;
 import javafx.scene.layout.VBox;
 import javafx.stage.Modality;
-import org.fxmisc.flowless.VirtualizedScrollPane;
+import javafx.stage.StageStyle;
 import org.lucasstarsz.fxpad.RTFXMain;
 
 import java.awt.*;
@@ -144,6 +144,12 @@ public class DialogUtil {
         errorAlert.setHeaderText("");
 
         return errorAlert;
+    }
+
+    public static Dialog<Node> createEmptyDialog() {
+        Dialog<Node> result = new Dialog<>();
+        result.initModality(Modality.APPLICATION_MODAL);
+        return result;
     }
 
     /**

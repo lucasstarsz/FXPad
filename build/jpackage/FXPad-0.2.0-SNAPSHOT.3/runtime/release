@@ -1,2 +1,0 @@
-JAVA_VERSION="14.0.2"
-MODULES="java.base java.datatransfer java.xml java.prefs java.desktop javafx.base jdk.unsupported javafx.graphics javafx.controls formatfx.merged.module flowless java.scripting javafx.fxml org.fxmisc.richtext reactfx formatfx"
