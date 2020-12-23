@@ -4,30 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2ead24f-041c-4f59-99ad-9a4a50ac9260" name="Default Changelist" comment="Remove ability to open binary files on Linux operating systems.&#10;Java 14 produces this error: https://bugs.java.com/bugdatabase/view_bug.do?bug_id=JDK-8213088">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/styles/themes/lightpad.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.5.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/cssdialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cssdialects.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_22_2020_11_44_AM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_22_2020_11_44_AM__Default_Changelist_.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/lucasstarsz/fxpad/RTFXMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/org/lucasstarsz/fxpad/RTFXMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/distributions/formatfx-0.2.0.tar" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/formatfx-0.2.0.tar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/distributions/formatfx-0.2.0.zip" beforeDir="false" afterPath="$PROJECT_DIR$/build/distributions/formatfx-0.2.0.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/formatfx-0.2.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/formatfx-0.2.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/styles/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/styles/themes/darcpad.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/styles/themes/darcpad.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/scripts/formatfx" beforeDir="false" afterPath="$PROJECT_DIR$/build/scripts/formatfx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/lucasstarsz/fxpad/RTFXMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lucasstarsz/fxpad/RTFXMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/styles/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/styles/themes/darcpad.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/styles/themes/darcpad.css" afterDir="false" />
+    <list default="true" id="e2ead24f-041c-4f59-99ad-9a4a50ac9260" name="Default Changelist" comment="Created two themes: darcpad.css and lightpad.css.&#10;A few other things that I won't mention also happened, like the splitting of my original css file into several different files--oh, guess I leaked the info. Darn.">
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/lucasstarsz/fxpad/RTFXController$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/lucasstarsz/fxpad/RTFXController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/lucasstarsz/fxpad/RTFXMain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/lucasstarsz/fxpad/SettingsController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/lucasstarsz/fxpad/nodes/FormatArea.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/lucasstarsz/fxpad/utils/DialogUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/lucasstarsz/fxpad/utils/FileUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/lucasstarsz/fxpad/utils/TextUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/distributions/formatfx-0.2.0.tar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/distributions/formatfx-0.2.0.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/formatfx-0.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/extensions/extension_text.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/extensions/extension_txt.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/fonts/Inconsolata-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/icons/fxpad_icns.icns" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/icons/fxpad_ico.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/icons/fxpad_png.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/org/lucasstarsz/fxpad/rtfxmain.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/org/lucasstarsz/fxpad/settingsDialog.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/styles/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/styles/themes/darcpad.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/styles/themes/lightpad.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/scripts/formatfx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/scripts/formatfx.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,7 +227,7 @@
       <workItem from="1608644063551" duration="28642000" />
       <workItem from="1608690994964" duration="2722000" />
       <workItem from="1608697570526" duration="98000" />
-      <workItem from="1608699166650" duration="4305000" />
+      <workItem from="1608699166650" duration="4686000" />
     </task>
     <task id="LOCAL-00001" summary="Updated to current version: 0.2.0-SNAPSHOT.3&#10;&#10;Changes made:&#10;- created dark theme&#10;- added error dialogs&#10;- separated static logic of controller into separate classes (FileUtil, DialogUtil, TextUtil)&#10;- including build files from 0.2.0-SNAPSHOT.3">
       <created>1608655446728</created>
@@ -259,7 +264,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608661498368</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Created two themes: darcpad.css and lightpad.css.&#10;A few other things that I won't mention also happened, like the splitting of my original css file into several different files--oh, guess I leaked the info. Darn.">
+      <created>1608704000981</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1608704000981</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -282,6 +294,7 @@
     <MESSAGE value="Added png for README image" />
     <MESSAGE value="set README image link" />
     <MESSAGE value="Remove ability to open binary files on Linux operating systems.&#10;Java 14 produces this error: https://bugs.java.com/bugdatabase/view_bug.do?bug_id=JDK-8213088" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove ability to open binary files on Linux operating systems.&#10;Java 14 produces this error: https://bugs.java.com/bugdatabase/view_bug.do?bug_id=JDK-8213088" />
+    <MESSAGE value="Created two themes: darcpad.css and lightpad.css.&#10;A few other things that I won't mention also happened, like the splitting of my original css file into several different files--oh, guess I leaked the info. Darn." />
+    <option name="LAST_COMMIT_MESSAGE" value="Created two themes: darcpad.css and lightpad.css.&#10;A few other things that I won't mention also happened, like the splitting of my original css file into several different files--oh, guess I leaked the info. Darn." />
   </component>
 </project>
