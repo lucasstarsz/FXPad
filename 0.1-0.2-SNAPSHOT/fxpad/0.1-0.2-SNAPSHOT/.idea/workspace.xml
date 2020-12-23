@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="fxpad:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/cssdialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/richtextfx.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fxpadrtfx/RTFXController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fxpadrtfx/RTFXMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fxpadrtfx/rtfxmain.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fxpadrtfx/utils/PaddedLineNumberFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fxpad.iml" beforeDir="false" afterPath="$PROJECT_DIR$/fxpad.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/fxpad/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/fxpad/fxpad/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/fxpad/fxpad/controller/Controller$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/fxpad/fxpad/controller/Controller.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/fxpad/fxpad/sample.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/fxpad/icons/fxpad_png.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/fxpad/module-info.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/fxpad/styles/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/styles/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fxpad/sample.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/fxpad/sample.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module-info.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DebuggerManager">
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true" converted="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <ui_properties converted="true" />
+    <breakpoint_rules converted="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="JavaFxApplication" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="0" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Controller.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="27" selection-start="136" selection-end="136" vertical-scroll-proportion="0.17171717">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sample.fxml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="45" selection-start="467" selection-end="467" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="module-info" />
+        <option value="JavaFXApplication" />
+        <option value="FxmlFile" />
+        <option value="CSS File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/main" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/sample/Main.java" />
+        <option value="$PROJECT_DIR$/src/sample/sample.fxml" />
+        <option value="$PROJECT_DIR$/src/sample/Controller.java" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1612" />
+    <option name="height" value="876" />
+  </component>
+  <component name="ProjectId" id="1ldGnGWUDAtoxT3FhKfIYBekwoc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaFxApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaFxApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JavaFxApplication" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="OverrideImplement.combined" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/fxpadrtfx/special" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.1473851" />
+    <property name="project.structure.side.proportion" value="0.18046512" />
+    <property name="recentsLimit" value="5" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Github-repos\fxpad\src\fxpadrtfx\special" />
+      <recent name="F:\Github-repos\fxpad\resources\icons" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.RTFXMain">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+    <configuration name="FXPad" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="fxpad.Main" />
+      <module name="fxpad" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;F:\Java-JDKs\javafx-sdk-15.0.1\lib&quot;;out\production" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaKeywordsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fxpadrtfx.JavaKeywordsDemo" />
+      <module name="fxpad" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;F:\Java-JDKs\javafx-sdk-15.0.1\lib;$PROJECT_DIR$/../../Dependencies/RTFX_Main;out/production&quot;" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RTFXMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fxpadrtfx.RTFXMain" />
+      <module name="fxpad" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;F:\Java-JDKs\javafx-sdk-15.0.1\lib;$PROJECT_DIR$/../../Dependencies/RTFX_Main;out/production&quot;" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="fxpad.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/fxpad_jar/fxpad.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.FXPad" />
+      <item itemvalue="Application.RTFXMain" />
+      <item itemvalue="Application.JavaKeywordsDemo" />
+      <item itemvalue="JAR Application.fxpad.jar" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.RTFXMain" />
+        <item itemvalue="Application.JavaKeywordsDemo" />
+        <item itemvalue="JAR Application.fxpad.jar" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="" />
+      <created>1359379246138</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1359379246138</updated>
+      <workItem from="1359379250712" duration="1302000" />
+      <workItem from="1608079683958" duration="577000" />
+      <workItem from="1608080280432" duration="7067000" />
+      <workItem from="1608087465202" duration="2262000" />
+      <workItem from="1608091699328" duration="751000" />
+      <workItem from="1608095113092" duration="2346000" />
+      <workItem from="1608097595951" duration="65000" />
+      <workItem from="1608097675520" duration="545000" />
+      <workItem from="1608152744245" duration="4814000" />
+      <workItem from="1608158299676" duration="12143000" />
+      <workItem from="1608185919209" duration="14000" />
+      <workItem from="1608232220517" duration="20044000" />
+      <workItem from="1608297526422" duration="12144000" />
+      <workItem from="1608309873181" duration="5234000" />
+      <workItem from="1608316031918" duration="603000" />
+      <workItem from="1608316672981" duration="98000" />
+      <workItem from="1608316787389" duration="356000" />
+      <workItem from="1608317160508" duration="9824000" />
+      <workItem from="1608333637448" duration="7894000" />
+      <workItem from="1608349354419" duration="155000" />
+      <workItem from="1608354549261" duration="6538000" />
+      <workItem from="1608363786619" duration="9000" />
+      <workItem from="1608408956748" duration="335000" />
+      <workItem from="1608409308514" duration="548000" />
+      <workItem from="1608409888061" duration="17000" />
+      <workItem from="1608409918536" duration="43000" />
+      <workItem from="1608409981401" duration="2052000" />
+      <workItem from="1608424747390" duration="2177000" />
+      <workItem from="1608428752239" duration="1349000" />
+      <workItem from="1608438368831" duration="668000" />
+      <workItem from="1608441559188" duration="1941000" />
+      <workItem from="1608448122161" duration="3880000" />
+      <workItem from="1608484409326" duration="17977000" />
+      <workItem from="1608508925645" duration="948000" />
+      <workItem from="1608511776186" duration="51000" />
+    </task>
+    <task id="LOCAL-00001" summary="Adding repo content">
+      <created>1608097775517</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608097775517</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added smart tabs, more editing options.&#10;This update includes all of the following:&#10; - Smart tabs &#10;   - ctrl/shift + tab moves leading tab of current line right/left one tab&#10;   - leading tab amount is kept every time enter key is pressed&#10; - Edit menu&#10;   - undo&#10;   - redo&#10;   - cut&#10;   - copy&#10;   - paste&#10;   - select all&#10;   - Indents&#10;     - shift right&#10;     - shift left">
+      <created>1608309240513</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608309240513</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Added smart tabs, more editing options.&#10;This update includes all of the following:&#10; - Smart tabs &#10;   - ctrl/shift + tab moves leading tab of current line right/left one tab&#10;   - leading tab amount is kept every time enter key is pressed&#10; - Edit menu&#10;   - undo&#10;   - redo&#10;   - cut&#10;   - copy&#10;   - paste&#10;   - select all&#10;   - Indents&#10;     - shift right&#10;     - shift left">
+      <created>1608309954211</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1608309954211</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Smart tabs, more editing options, and a readme file.&#10;&#10;This update includes all of the following:&#10;- Smart tabs &#10;  - ctrl/shift + tab moves leading tab of current line right/left one tab&#10;  - leading tab amount is kept every time enter key is pressed&#10;- Edit menu&#10;  - Undo&#10;  - Redo&#10;  - Cut&#10;  - Copy&#10;  - Paste&#10;  - Select All&#10;  - Indents&#10;    - Shift Right&#10;    - Shift Left&#10;- README file">
+      <created>1608310539355</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608310539355</updated>
+    </task>
+    <task id="LOCAL-00005" summary="v0.1 release, installers included.&#10;&#10;Includes:&#10;- Menu -&gt; New (creates a new file)&#10;- Dialogs now start in the current file's directory, if applicable&#10;- Fixed Smart Tab hotkeys&#10;- Opening files with FXPad is now an option&#10;  - This also means that you can run the application with the name of the file you want to open.&#10;- code tidying, slightly">
+      <created>1608343635346</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1608343635346</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Update README.md, add missing files.">
+      <created>1608344599653</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1608344599653</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Fixed double &quot;.txt&quot;, updated README, push 0.1.1 HOTFIX.&#10;&#10;- Fixed issue #3: &quot;[BUG] txt showing two times while saving&quot;.&#10;- Added detail &amp; formatting to README file.&#10;  - Increased clarity of instructions for running installer/building project.&#10;  - Formatted parts of README to make intentions clearer.&#10;  - Improved README visual appeal.&#10;- Replaced arrow lookalikes with alt-keycode arrows in `Edit` → `Indents` → `Shift Left/Right` menu items.">
+      <created>1608362127173</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1608362127173</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Fixed double &quot;.txt&quot;, updated README, push 0.1.1 HOTFIX.&#10;&#10;- Fixed issue #3: &quot;[BUG] txt showing two times while saving&quot;.&#10;- Added detail &amp; formatting to README file.&#10;  - Increased clarity of instructions for running installer/building project.&#10;  - Formatted parts of README to make intentions clearer.&#10;  - Improved README visual appeal.&#10;- Replaced arrow lookalikes with alt-keycode arrows in `Edit` → `Indents` → `Shift Left/Right` menu items.&#10;- Created installers for Windows, Linux.">
+      <created>1608363508716</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1608363508716</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Removed stagnant installer.">
+      <created>1608363589274</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1608363589274</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1302000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1612" height="876" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24967742" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+    <MESSAGE value="Adding repo content" />
+    <MESSAGE value="Added smart tabs, more editing options.&#10;This update includes all of the following:&#10; - Smart tabs &#10;   - ctrl/shift + tab moves leading tab of current line right/left one tab&#10;   - leading tab amount is kept every time enter key is pressed&#10; - Edit menu&#10;   - undo&#10;   - redo&#10;   - cut&#10;   - copy&#10;   - paste&#10;   - select all&#10;   - Indents&#10;     - shift right&#10;     - shift left" />
+    <MESSAGE value="Smart tabs, more editing options, and a readme file.&#10;&#10;This update includes all of the following:&#10;- Smart tabs &#10;  - ctrl/shift + tab moves leading tab of current line right/left one tab&#10;  - leading tab amount is kept every time enter key is pressed&#10;- Edit menu&#10;  - Undo&#10;  - Redo&#10;  - Cut&#10;  - Copy&#10;  - Paste&#10;  - Select All&#10;  - Indents&#10;    - Shift Right&#10;    - Shift Left&#10;- README file" />
+    <MESSAGE value="v0.1 release, installers included.&#10;&#10;Includes:&#10;- Menu -&gt; New (creates a new file)&#10;- Dialogs now start in the current file's directory, if applicable&#10;- Fixed Smart Tab hotkeys&#10;- Opening files with FXPad is now an option&#10;  - This also means that you can run the application with the name of the file you want to open.&#10;- code tidying, slightly" />
+    <MESSAGE value="Update README.md, add missing files." />
+    <MESSAGE value="Updated README, added indent menu arrows." />
+    <MESSAGE value="Fixed double &quot;.txt&quot;, updated README, push 0.1.1 HOTFIX.&#10;&#10;- Fixed issue #3: &quot;[BUG] txt showing two times while saving&quot;.&#10;- Added detail &amp; formatting to README file.&#10;  - Increased clarity of instructions for running installer/building project.&#10;  - Formatted parts of README to make intentions clearer.&#10;  - Improved README visual appeal.&#10;- Replaced arrow lookalikes with alt-keycode arrows in `Edit` → `Indents` → `Shift Left/Right` menu items." />
+    <MESSAGE value="Fixed double &quot;.txt&quot;, updated README, push 0.1.1 HOTFIX.&#10;&#10;- Fixed issue #3: &quot;[BUG] txt showing two times while saving&quot;.&#10;- Added detail &amp; formatting to README file.&#10;  - Increased clarity of instructions for running installer/building project.&#10;  - Formatted parts of README to make intentions clearer.&#10;  - Improved README visual appeal.&#10;- Replaced arrow lookalikes with alt-keycode arrows in `Edit` → `Indents` → `Shift Left/Right` menu items.&#10;- Created installers for Windows, Linux." />
+    <MESSAGE value="Removed stagnant installer." />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed stagnant installer." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ClassNotFoundException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/fxpad/Main.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/sample/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/sample.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="45" selection-start="467" selection-end="467" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/sample/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="27" selection-start="136" selection-end="136" vertical-scroll-proportion="0.17171717">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
