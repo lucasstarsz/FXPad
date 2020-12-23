@@ -14,7 +14,8 @@ public class RTFXMain extends Application {
 
     public static final String title = "FXPad SNAPSHOT.3";
     public static final String mainFXMLPath = "rtfxmain.fxml";
-    public static final String mainCSSPath = "/styles/style.css";
+    public static final String baseStylePath = "/styles/base.css";
+    public static final String themeStylePath = "/styles/themes/darcpad.css";
     public static final String iconPath = "/icons/fxpad_png.png";
 
     private static Stage mainStage;
@@ -31,8 +32,11 @@ public class RTFXMain extends Application {
 
         FXMLLoader fxml = new FXMLLoader(getClass().getResource(mainFXMLPath));
         Scene scene = new Scene(fxml.load(), 800, 600);
-        String stylesheet = getClass().getResource(mainCSSPath).toExternalForm();
-        scene.getStylesheets().add(stylesheet);
+
+        String baseStyle = getClass().getResource(baseStylePath).toExternalForm();
+        String themeStyle = getClass().getResource(themeStylePath).toExternalForm();
+
+        scene.getStylesheets().addAll(baseStyle, themeStyle);
 
         mainStage.setScene(scene);
         mainStage.setTitle("Untitled.txt | " + title);
