@@ -2,7 +2,7 @@
 name: Bug Report
 about: Find an issue with FXPad? Tell us about it!
 title: "[BUG REPORT]"
-labels: ''
+labels: bug
 assignees: ''
 
 ---
