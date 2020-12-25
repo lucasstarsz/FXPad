@@ -16,7 +16,7 @@ public class FormatArea extends StyleClassedTextArea {
 
     private void bindRect() {
         gutterRect.heightProperty().bind(this.heightProperty());
-        gutterRect.getStyleClass().add("lineno");
+        gutterRect.getStyleClass().add("lineno-rect");
     }
 
     @Override
@@ -31,7 +31,6 @@ public class FormatArea extends StyleClassedTextArea {
             int index = visibleParToAllParIndex(0);
             double wd = getParagraphGraphic(index).prefWidth(10);
             gutterRect.setWidth(wd);
-//            gutterRect.setHeight(getHeight() + 100);
         } catch (Exception ignored) {
         }
     }

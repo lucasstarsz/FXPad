@@ -5,34 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2ead24f-041c-4f59-99ad-9a4a50ac9260" name="Default Changelist" comment="Created two themes: darcpad.css and lightpad.css.&#10;A few other things that I won't mention also happened, like the splitting of my original css file into several different files--oh, guess I leaked the info. Darn.">
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/module-info.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/lucasstarsz/fxpad/RTFXController$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/lucasstarsz/fxpad/RTFXController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/lucasstarsz/fxpad/RTFXMain.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/lucasstarsz/fxpad/SettingsController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/lucasstarsz/fxpad/nodes/FormatArea.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/lucasstarsz/fxpad/utils/DialogUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/lucasstarsz/fxpad/utils/FileUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/org/lucasstarsz/fxpad/utils/TextUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/distributions/formatfx-0.2.0.tar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/distributions/formatfx-0.2.0.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/formatfx-0.2.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/extensions/extension_text.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/extensions/extension_txt.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/fonts/Inconsolata-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/icons/fxpad_icns.icns" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/icons/fxpad_ico.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/icons/fxpad_png.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/org/lucasstarsz/fxpad/rtfxmain.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/org/lucasstarsz/fxpad/settingsDialog.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/styles/base.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/styles/themes/darcpad.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/resources/main/styles/themes/lightpad.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/scripts/formatfx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/scripts/formatfx.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/lucasstarsz/fxpad/utils/PropertiesUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/styles/themes/fresh.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5.1/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5.1/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/lucasstarsz/fxpad/RTFXController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lucasstarsz/fxpad/RTFXController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/lucasstarsz/fxpad/RTFXMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lucasstarsz/fxpad/RTFXMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/lucasstarsz/fxpad/SettingsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lucasstarsz/fxpad/SettingsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/lucasstarsz/fxpad/nodes/FormatArea.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lucasstarsz/fxpad/nodes/FormatArea.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/lucasstarsz/fxpad/utils/DialogUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/lucasstarsz/fxpad/utils/DialogUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/org/lucasstarsz/fxpad/settingsDialog.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/org/lucasstarsz/fxpad/settingsDialog.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/styles/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/styles/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/styles/themes/darcpad.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/styles/themes/darc.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/styles/themes/lightpad.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/styles/themes/light.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,8 +72,11 @@
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/org/lucasstarsz/fxpad" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/styles/themes" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.1473851" />
+    <property name="project.structure.side.proportion" value="0.29816514" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -92,7 +87,18 @@
       <recent name="F:\Github-repos\formatfx\src\main\resources\org\lucasstarsz\fxpad" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Clean">
+  <component name="RunManager" selected="Gradle.Package">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Clean" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -227,7 +233,11 @@
       <workItem from="1608644063551" duration="28642000" />
       <workItem from="1608690994964" duration="2722000" />
       <workItem from="1608697570526" duration="98000" />
-      <workItem from="1608699166650" duration="4686000" />
+      <workItem from="1608699166650" duration="4792000" />
+      <workItem from="1608744148916" duration="1789000" />
+      <workItem from="1608748188553" duration="12041000" />
+      <workItem from="1608835996341" duration="399000" />
+      <workItem from="1608852545257" duration="11083000" />
     </task>
     <task id="LOCAL-00001" summary="Updated to current version: 0.2.0-SNAPSHOT.3&#10;&#10;Changes made:&#10;- created dark theme&#10;- added error dialogs&#10;- separated static logic of controller into separate classes (FileUtil, DialogUtil, TextUtil)&#10;- including build files from 0.2.0-SNAPSHOT.3">
       <created>1608655446728</created>
@@ -271,7 +281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608704000981</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Created two themes: darcpad.css and lightpad.css.&#10;A few other things that I won't mention also happened, like the splitting of my original css file into several different files--oh, guess I leaked the info. Darn.">
+      <created>1608704287169</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1608704287170</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -10,10 +10,12 @@
     <padding>
         <Insets topRightBottomLeft="20"/>
     </padding>
-    <ComboBox promptText="Set Theme" editable="true">
+    <ComboBox fx:id="themeSelector" promptText="Set Theme" onAction="#setTheme">
         <items>
             <FXCollections fx:factory="observableArrayList">
-                <String fx:value="Darcpad"/>
+                <String fx:value="Light"/>
+                <String fx:value="Fresh"/>
+                <String fx:value="Darc"/>
             </FXCollections>
         </items>
     </ComboBox>

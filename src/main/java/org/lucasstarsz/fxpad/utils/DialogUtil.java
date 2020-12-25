@@ -1,16 +1,16 @@
 package org.lucasstarsz.fxpad.utils;
 
+import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Node;
 import javafx.scene.control.Button;
 import javafx.scene.control.Dialog;
-import javafx.scene.control.ScrollPane;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.*;
 import javafx.scene.layout.Priority;
 import javafx.scene.layout.VBox;
 import javafx.stage.Modality;
-import javafx.stage.StageStyle;
+import javafx.stage.Window;
 import org.lucasstarsz.fxpad.RTFXMain;
 
 import java.awt.*;
@@ -19,6 +19,7 @@ import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
 import java.util.Arrays;
+import java.util.Map;
 import java.util.concurrent.atomic.AtomicReference;
 
 /**
@@ -86,23 +87,13 @@ public class DialogUtil {
         errorAlert.setTitle("FXPad Error");
         errorAlert.setContentText("Hm... it seems FXPad ran into an issue: " + error.toString());
 
-        String[] errorLog = Arrays.stream(error.getStackTrace())
-                .map(Object::toString)
-                .toArray(String[]::new);
-
-        VBox container = new VBox();
-        container.setAlignment(Pos.TOP_CENTER);
-
-        TextArea area = new TextArea("Exception: " + error.toString() + "\n\nat: " + String.join("\nat: ", errorLog));
-        area.setWrapText(false);
-        area.setEditable(false);
-        VBox.setVgrow(area, Priority.SOMETIMES);
+        Map.Entry<VBox, TextArea> exceptionContainer = createExceptionContainer(e);
 
         Button createIssueLink = new Button("Let the developer know");
         createIssueLink.setOnAction(event -> {
-            area.selectAll();
-            area.copy();
-            area.deselect();
+            exceptionContainer.getValue().selectAll();
+            exceptionContainer.getValue().copy();
+            exceptionContainer.getValue().deselect();
 
             try {
                 Desktop.getDesktop().browse(new URI(issueForm));
@@ -111,10 +102,9 @@ public class DialogUtil {
             }
         });
 
-        container.getChildren().addAll(area, createIssueLink);
-        errorAlert.getDialogPane().setExpandableContent(container);
+        exceptionContainer.getKey().getChildren().add(createIssueLink);
+        errorAlert.getDialogPane().setExpandableContent(exceptionContainer.getKey());
         errorAlert.showAndWait();
-
     }
 
     /**
@@ -149,7 +139,39 @@ public class DialogUtil {
     public static Dialog<Node> createEmptyDialog() {
         Dialog<Node> result = new Dialog<>();
         result.initModality(Modality.APPLICATION_MODAL);
+        result.initOwner(RTFXMain.getStage());
+
+        Window resultWindow = result.getDialogPane().getScene().getWindow();
+        resultWindow.setOnCloseRequest(event -> resultWindow.hide());
+
         return result;
+    }
+
+    private static Map.Entry<VBox, TextArea> createExceptionContainer(Exception e) {
+        return createExceptionContainer(e, new Insets(5));
+    }
+
+    private static Map.Entry<VBox, TextArea> createExceptionContainer(Exception e, Insets padding) {
+        VBox container = new VBox();
+        container.setAlignment(Pos.TOP_CENTER);
+        container.setPadding(padding);
+
+        String[] errorLog = Arrays.stream(e.getStackTrace())
+                .map(Object::toString)
+                .toArray(String[]::new);
+
+        TextArea area = new TextArea(
+                "Exception: " + e.toString()
+                        + System.lineSeparator()
+                        + System.lineSeparator()
+                        + "at: " + String.join("\nat: ", errorLog)
+        );
+        area.setWrapText(false);
+        area.setEditable(false);
+        VBox.setVgrow(area, Priority.SOMETIMES);
+        container.getChildren().add(area);
+
+        return Map.entry(container, area);
     }
 
     /**

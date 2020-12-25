@@ -27,7 +27,7 @@ project.version = '0.2.0'
 project.description = "A simple, clean text editor. SNAPSHOT BUILD - Now runs using RichTextFX"
 
 def usingSnapshot = true
-def snapshotVersion = "SNAPSHOT.3"
+def snapshotVersion = "SNAPSHOT.4"
 
 jlink {
     addExtraDependencies("javafx")
@@ -55,7 +55,7 @@ jlink {
             installerType = "msi"
             installerOptions += [
                     '--win-per-user-install',
-                    '--install-dir', 'FXPad Test',
+                    '--install-dir', "FXPad $snapshotVersion",
                     '--win-dir-chooser',
                     '--win-shortcut',
                     '--win-menu', '--win-menu-group', 'Productivity'

@@ -2,7 +2,7 @@
     -fx-base: #3c3f41;
     -fx-accent: #0094bd;
 
-    -fx-focus-color: #0093bc;
+    -fx-focus-color: -fx-accent;
     -fx-faint-focus-color: #36587f;
 
     -fx-default-button: #4c5052;
@@ -14,23 +14,24 @@ FormatArea, .text-area .content {
     -fx-background-color: #2b2b2b;
 }
 
-FormatArea .text, .text-area {
-    -fx-fill: #b9b9b9;
-}
-
-.text-area {
-    -fx-text-fill: #b9b9b9;
+FormatArea .text {
+    -fx-fill: #d9d9d9;
 }
 
 FormatArea .caret {
     -fx-stroke: white;
 }
 
+.text-area {
+    -fx-text-fill: #d9d9d9;
+}
+
 /* Text Line Numbers */
 
-.lineno {
+.lineno, .lineno-rect {
     -fx-fill: #3c3f41;
     -fx-background-color: #3c3f41;
+    -fx-stroke: #606366;
     -fx-text-fill: #606366;
 }
 
@@ -48,10 +49,21 @@ FormatArea .caret {
 }
 
 .menu-bar .menu, .menu-bar .menu-item, .menu-bar .menu-button {
-    -fx-background-color: #3c3f41;
+    -fx-background-color: -fx-base;
 }
 
 .menu-bar .menu:hover, .menu-bar .menu-item:hover, .menu-bar .menu-button:hover {
+    -fx-background-color: #0094bd;
+}
+
+/* Combo Boxes */
+
+.combo-box .list-view .list-cell {
+    -fx-background-color: #3c3f41;
+    -fx-text-fill: white;
+}
+
+.combo-box .list-view .list-cell:hover {
     -fx-background-color: #0094bd;
 }
 
@@ -60,12 +72,7 @@ FormatArea .caret {
 .scroll-bar:horizontal .thumb,
 .scroll-bar:vertical .thumb {
     -fx-background-color: -fx-default-button;
-}
-
-/* Scrolling */
-
-.scroll-bar .thumb {
-    -fx-background-color: -fx-base;
+    -fx-border-style: none;
 }
 
 .scroll-bar .thumb:hover, .scroll-bar .thumb:pressed {

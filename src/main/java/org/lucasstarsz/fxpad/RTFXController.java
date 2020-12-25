@@ -64,7 +64,8 @@ public class RTFXController {
                 newFileMenuItem, new KeyCodeCombination(KeyCode.N, KeyCodeCombination.SHORTCUT_DOWN),
                 openMenuItem, new KeyCodeCombination(KeyCode.O, KeyCodeCombination.SHORTCUT_DOWN),
                 saveMenuItem, new KeyCodeCombination(KeyCode.S, KeyCodeCombination.SHORTCUT_DOWN),
-                saveAsMenuItem, new KeyCodeCombination(KeyCode.S, KeyCodeCombination.SHORTCUT_DOWN, KeyCodeCombination.SHIFT_DOWN)
+                saveAsMenuItem, new KeyCodeCombination(KeyCode.S, KeyCodeCombination.SHORTCUT_DOWN, KeyCodeCombination.SHIFT_DOWN),
+                settingsMenuItem, new KeyCodeCombination(KeyCode.S, KeyCodeCombination.SHORTCUT_DOWN, KeyCombination.ALT_DOWN)
         );
 
         editMenuMnemonics.forEach(MenuItem::setAccelerator);
@@ -103,7 +104,7 @@ public class RTFXController {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("settingsDialog.fxml"));
         settingsDialog.getDialogPane().setContent(fxmlLoader.load());
 
-        settingsDialog.show();
+        settingsDialog.showAndWait();
     }
 
     public void tryOpen(String fileLocation) throws IOException {

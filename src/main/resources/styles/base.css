@@ -8,8 +8,9 @@
 
 /* Text Areas */
 
-FormatArea {
+FormatArea, .text-area {
     -fx-font: 15px "Inconsolata";
+    -fx-padding: 0px 0px 0px 4px;
 }
 
 /* Text */
@@ -22,15 +23,12 @@ ParagraphText {
 
 .lineno {
     -fx-font-style: normal;
-
     -fx-padding: 0 15 0 5;
-    -fx-fit-to-height: true;
+    -fx-translate-x: -5;
 }
 
-/* Dialogs */
-
-.dialog-pane .text-area .content {
-    -fx-font: 15px "Inconsolata";
+.lineno-rect {
+    -fx-fit-to-height: true;
 }
 
 /* Menus */
@@ -50,8 +48,8 @@ ParagraphText {
 /* Scrolling */
 
 .virtualized-scroll-pane {
-    -fx-padding: 0 0 0 10;
     -fx-font: 15px "Inconsolata";
+    -fx-padding: 0 0 0 10;
 }
 
 .scroll-bar:vertical {
