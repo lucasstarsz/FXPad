@@ -1,3 +1,5 @@
+# [This project has moved!](https://github.com/lucasstarsz/Compose)
+
 <div align="center">
     <img src="https://raw.githubusercontent.com/lucasstarsz/FXPad/main/.github/fxpad_png.png" 
 width="25%" height="25%" alt="FXPad image"/>
